@@ -81,7 +81,7 @@ return (
                 ))}
             </motion.div>
             {/* img and description */}
-            <div className=" mt-16 md:flex items-center justify-between md:mt-28">
+            <div className=" mt-16 md:flex items-center justify-between">
                 {/* img */}
                 <img className=" mx-auto " src={BenefitsPageGraphic} alt="BenefitsPageGraphic" />
                 {/* description */}
