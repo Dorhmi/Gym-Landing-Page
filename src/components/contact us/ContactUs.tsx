@@ -5,7 +5,7 @@ type Props = {}
 
 const ContactUs = (props: Props) => {
 return (
-    <div>ContactUs</div>
+    <section id="contactus"></section>
 )
 }
 
