@@ -3,6 +3,7 @@ import { useEffect, useState } from "react"
 import Home from "./components/home/Home"
 import Benefits from "./components/benefits/Benefits"
 import OurClasses from "./components/our classes/OurClasses"
+import ContactUs from "./components/contact us/ContactUs"
 
 
 
@@ -28,6 +29,7 @@ const App = () => {
       <Home setSelectedPage={setSelectedPage}/>
       <Benefits setSelectedPage={setSelectedPage}/>
       <OurClasses setSelectedPage={setSelectedPage}/>
+      <ContactUs setSelectedPage={setSelectedPage}/>
     </div>
   )
 }
