@@ -25,7 +25,7 @@ const ContactUs = ({setSelectedPage}: Props) => {
         }
     }
 return (
-    <section id="contactus" className=" bg-gray-20 py-10">
+    <section id="contactus" className=" bg-gray-20 py-10 ">
         <motion.div 
         onViewportEnter={()=>setSelectedPage('contactus')}
         className=" w-5/6 mx-auto"
@@ -121,7 +121,7 @@ return (
                     </form>
                 </motion.div>
                 <motion.div
-                className=" relative mt-16 md:mt-0 z-10 "
+                className=" relative my-16 md:mt-0 z-10"
                 initial="hidden"
                 whileInView="visible"
                 viewport={{once:true , amount:0.5}}

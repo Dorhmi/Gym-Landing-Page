@@ -4,6 +4,7 @@ import Home from "./components/home/Home"
 import Benefits from "./components/benefits/Benefits"
 import OurClasses from "./components/our classes/OurClasses"
 import ContactUs from "./components/contact us/ContactUs"
+import Footer from "./components/footer/Footer"
 
 
 
@@ -30,6 +31,7 @@ const App = () => {
       <Benefits setSelectedPage={setSelectedPage}/>
       <OurClasses setSelectedPage={setSelectedPage}/>
       <ContactUs setSelectedPage={setSelectedPage}/>
+      <Footer  />
     </div>
   )
 }
